@@ -32,26 +32,27 @@ C:￥Users￥user> cd ..￥..<br>
 ※起動時のカレントフォルダが「C:￥Users￥user」の場合
 
 ### 演習10-2
-C:￥> mkdir work<br>
-C:￥> cd work<br>
-C:￥work> mkdir 01.IT基礎<br>
-C:￥work> mkdir 02.アルゴリズム<br>
-C:￥work> mkdir 03.HTML-CSS<br>
-C:￥work> mkdir 04.データベース<br>
-C:￥work> mkdir 05.PHP
+C:￥> mkdir training<br>
+C:￥> cd training<br>
+C:￥training> mkdir 01.IT基礎<br>
+C:￥training> mkdir 02.アルゴリズム<br>
+C:￥training> mkdir 03.HTML-CSS<br>
+C:￥training> mkdir 04.JavaScript<br>
+C:￥training> mkdir 05.データベース<br>
+C:￥training> mkdir 06.PHP
 
 ### 演習10-3
-C:￥work> dir
+C:￥training> dir
 
 ### 演習10-4
-C:￥work> cd 01.IT基礎<br>
-C:￥work￥01.IT基礎> copy nul sample.txt
+C:￥training> cd 01.IT基礎<br>
+C:￥training￥01.IT基礎> copy nul sample.txt
 
 > （別解）type nul > sample.txt
 
 ### 演習10-5
-C:￥work￥01.IT基礎> move sample.txt ..￥02.アルゴリズム
+C:￥training￥01.IT基礎> move sample.txt ..￥02.アルゴリズム
 
 ### 演習10-6
-C:￥work￥01.IT基礎> cd ..￥02.アルゴリズム<br>
-C:￥work￥02.アルゴリズム> del sample.txt
+C:￥training￥01.IT基礎> cd ..￥02.アルゴリズム<br>
+C:￥training￥02.アルゴリズム> del sample.txt
